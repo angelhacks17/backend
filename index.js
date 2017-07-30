@@ -12,7 +12,7 @@ admin.initializeApp({
 });
 
 var db = admin.database();
-var ref = db.ref('Nihal')
+var ref = db.ref('Gautam');
 
 
 app.get('/', function(req, res) {
@@ -20,8 +20,29 @@ app.get('/', function(req, res) {
   console.log("Hello World")
 })
 
+app.get('/initial', function(req, res) {
+  ref.child('initial').on("value", function(snapshot) {
+    console.log(snapshot.val());
+    res.send(snapshot.val());
+  }, function (errorObject) {
+    console.log("The read failed: " + errorObject.code);
+  });
+});
+
 app.get('/cuisine', function(req, res) {
   console.log('test')
+
+  var options = {
+    method: 'GET',
+    url: 'http://angelhacks17-imitra.c9users.io:8080/'
+  }
+  
+  var recommended;
+  
+  request(options, function(error, response, body) {
+      recommended = body;
+  });
+  
 
   var options = {
     method: 'GET',
@@ -29,7 +50,7 @@ app.get('/cuisine', function(req, res) {
     qs: {
       method: 'delivery',
       'pickup-radius': '5',
-      search: 'chinese',
+      search: recommended,
       'street-address': '500 Ben Franklin Ct., San Mateo, CA, 94401',
       'access-token': 'eeef884f9fe78292'
     },
@@ -61,7 +82,8 @@ app.get('/cuisine', function(req, res) {
     request(options, function(error, response, body) {
       if (error) throw new Error(error);
       body = JSON.parse(body);
-      console.log(body[0].items[0]);
+      console.log('output' + JSON.stringify(body[0].items[0]));
+      res.send(JSON.stringify(body[0].items[0]));
     });
   });
 });
