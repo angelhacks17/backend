@@ -1,4 +1,12 @@
 {
-  "PORT": 3000,
-  "HOST": "127.0.0.1"
+  "type": "service_account",
+  "project_id": "lunchbox-569d7",
+  "private_key_id": "1cae3c02005ad74231547b99a060c88127ffb64c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDBpYADxXk8MNQY\nSeErcR5Isvj4YRJSr9BZdzdGu0+2SUQH6ccoRRwGmt6e6iuY0EG6xYW21KQJNAcg\nQEUxVnI0sEzRhwRFwqtO+2jQe1Olr1hZpFvTi5a57lriML/xZPIWuGkXLOmw7o/z\nsoV0WPTaoOJSpVzlqmlrCuxIn43aLfVHo2/LA98k7/vfcjdmY5/fdDyxL9N5o00F\nr7VYHno4U2YZ6SrzQMegyqs0bfG8gIo8spnOubNlIXb75/W6wY9fnxRW8HCq6+7B\nYmMhMs5A5EftAVibH2ImFT60sa7985/vpRtk+I+LfS2MzBbw8lmHqHw7A33K/1v+\nuWCx2un/AgMBAAECggEAARdLpWAxizuR/laBSVx4bLVuOf83E+mVM0o80uv11z49\nkAxiTOW/lJLhIXokNEXEohn76/lpUj9JOg79TmiN6F3i2OkXU5I5PKhhWsMTYYls\nMyxK2eI7JcwoSUJJHtLhVrBMSjWR3o3Bh2bcLsHLR6FAe5PaMebKDZcrdsJ7XjbO\nbc6agM7uFmYk++N79rP6fZEpH0eXYGcY728Gn9BomO6ITrUh+ryFMpc0Z4Qosbxb\nV5qAs/c0jmX9PJfDRTED7lMnItIEeG2ZWi/LE0vdPWps6Ol6qV//i5Zc/S0EoeGk\nfDU7bITYEUABubDq9JOcpZ8t9uQuDsBY+lpkX96bSQKBgQDlC9oqSk2TXi400qfJ\np2d7d5YjaDPAkhnrKLVR+F+YE90B/SYsqxLiwTT1A+q/Z/qFK1pzlYBh3Wwab+XO\neMf8ZBJoPVRc35HwGMv0EM+/sNKbUb0d6Eg13dqa0uUyKuyF6YEdFWAR2y1fQhqU\ngcS6Q4PYpW6Vn5nXfeCQ/ZhVBwKBgQDYbzVsdapH/Tr7smcbmG4DrBQpqnr7unEu\njvWWTlH/7XX4ko2vcuN0A9gi0c5ehZ8524izbiRpN13K+8X5k3NyHTXTSqkGnNPH\nqhTUsKgz7IlwyuH61CABMLI7jiHakAvopanaYlxjjerfz7aVtnOziMOm4uFS8YvW\nnbXNX5g9SQKBgH41WbGT38skSjGxIeNr6wmNi51W/a1O1BlQBRl10rbpuw4tf6t9\nWJq5+4RG9EMj+FcI3H50EpnaeIbYwbhTtV7NhZcKtEG4r6GtCDUkTlVCCcqr75lb\nNO75oEtPihtqq4necNalwJoWO5oRwrOyDcTVDwGBpr2rhAnJwsQh+J5hAoGAVMqE\nqIAUfO2FTRQgdtwpxYCFyakDU1lAfBf/uKnoUBZskDyCC4k7+LiE1WdSrQ82SQlr\nrbfpxdquARbQAa21nbA55RQr0e5gvakxTf4Dd4wkcC7bh1PRUgYM3W4abzDdqYA1\nYdwFC++OY65Rfqei/mQHGntqAP+mZCcXEWVxFBkCgYABSgzGMtI498bKH9G4DM81\ncPL36A+6HqQyBhW48/AKJwreg1r0BYFN5JhHSUerU+FwmN7K+83vAz/8sKUyqKes\nOi4/PZQYqS4+xmhNpB75F2oCkFmlDWbGs1AgU7BR3m/exHdFSwxhRFf5Mq7Z/oKk\nJsVfAYDyD6rejzwAQ7YHBQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-j6vb2@lunchbox-569d7.iam.gserviceaccount.com",
+  "client_id": "108679274770219378545",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-j6vb2%40lunchbox-569d7.iam.gserviceaccount.com"
 }
