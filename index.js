@@ -68,7 +68,7 @@ app.get('/cuisine', function(req, res) {
       term: 'restaurants',
       latitude: 37.563106,
       longitude: -122.325028,
-      radius: 2500,
+      radius: 4000,
       categories: recommended.toLowerCase(),
       limit: 3,
       sort_by: 'rating',
@@ -91,7 +91,7 @@ app.get('/cuisine', function(req, res) {
           }
       }
       
-      ref.update(data);
+      ref.push(data);
       res.send(data);
     });
     
