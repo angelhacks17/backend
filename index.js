@@ -4,6 +4,8 @@ var admin = require('firebase-admin')
 
 var app = express()
 
+app.set('port', (process.env.PORT || 5000));
+
 var serviceAccount = require("./config.json");
 
 admin.initializeApp({
